@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MetroMaster
+title: MetroHero
 subtitle:
 description:
-author: John Doe
-email:
+author: Tomita&Kaneko
+email: nacoruru33@gmail.com
 language:
 
 # URL
@@ -65,7 +65,7 @@ logger_format: dev
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
+date_format: YYYY
 time_format: H:mm:ss
 
 # Pagination
@@ -79,10 +79,12 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: casper
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: git@github.com:n0bisuke/n0bisuke.github.io.git
+  branch: master
